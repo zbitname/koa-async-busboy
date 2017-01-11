@@ -1,0 +1,20 @@
+{
+  "extends": "google",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "parser": "espree",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "arrow-parens": 0,
+    "max-len": [1, 240]
+  },
+  "plugins": [
+    "babel"
+  ]
+}

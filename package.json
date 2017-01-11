@@ -1,0 +1,28 @@
+{
+  "name": "koa-async-busboy",
+  "version": "1.0.0",
+  "description": "Busboy adapter for koa2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.spec.js --harmony"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "async",
+    "asyncawait",
+    "busboy",
+    "multipart"
+  ],
+  "author": "Alex Kheben",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.0.0-alpha.7",
+    "koa-router": "^7.0.1",
+    "mocha": "^3.2.0",
+    "superkoa": "^1.0.2"
+  },
+  "dependencies": {
+    "busboy": "~0.2.13"
+  }
+}
