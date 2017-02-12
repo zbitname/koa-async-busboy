@@ -121,7 +121,7 @@ module.exports = class AsyncBusboy {
         });
       }
 
-      this.busboy.on('finish', function() {
+      this.busboy.once('finish', function() {
         resolve();
       });
 
