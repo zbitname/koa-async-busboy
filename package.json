@@ -1,6 +1,6 @@
 {
   "name": "koa-async-busboy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Busboy adapter for koa2",
   "main": "index.js",
   "scripts": {
@@ -15,14 +15,25 @@
     "multipart"
   ],
   "author": "Alex Kheben",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "koa": "^2.0.0-alpha.7",
+    "koa": "^2.1.0",
     "koa-router": "^7.0.1",
     "mocha": "^3.2.0",
     "superkoa": "^1.0.2"
   },
   "dependencies": {
     "busboy": "~0.2.13"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbitname/koa-async-busboy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zbitname/koa-async-busboy/issues"
+  },
+  "homepage": "https://github.com/zbitname/koa-async-busboy#readme"
 }
